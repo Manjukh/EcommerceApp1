@@ -1,0 +1,84 @@
+cart {
+    margin: 60px auto 32px;
+}
+.card {
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+}
+.right{
+    float: right;
+    color :orange;
+    width: 250px
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  
+  .button1 {background-color: #4c084c;} 
+  .button2 {background-color: #4c084c;} 
+  .button3 {background-color: #4c084c;}
+.center img {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    height: 162px;
+    width: 250px;
+    margin: 20px 0px;
+}
+h4, h6 {
+    font-weight: 400;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.card-table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+}
+.center .btn {
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    font-weight: 400;
+    padding: 12px 72px;
+    border-radius: 3px !important;
+}
+
+section {
+    height: 90vh;
+    position: relative;
+}
+
+section::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('/assets/background.jpg');
+    background-size: cover;
+    filter: brightness(80%);
+}

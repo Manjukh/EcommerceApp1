@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+section {
+    height: 90vh;
+    position: relative;
+  }
+  
+  section::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image:url('/assets/background.jpg');
+    background-size: cover;
+    filter: brightness(80%);
+    
+  }
+  
+.reg {
+    max-width: 700px;
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+h1
+ {
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(233, 27, 161);
+}
+
+input {
+    
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 7px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 1.6rem;
+    padding: 10px 30px 10px 30px;
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.5s ease;
+    
+    
+
+
+}
+
+button:hover {
+    background-color:  rgb(233, 27, 161);;
+}
+
+
+
+
+
+
+
+
+
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  

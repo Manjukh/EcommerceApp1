@@ -1,0 +1,30 @@
+<p>login works!</p>
+<section>
+    <div class="reg">
+        <h1>Sign in</h1>
+<form class="example-form">
+    
+  
+    <mat-form-field class="example-full-width">
+      <mat-label>Username</mat-label>
+      <input matInput [(ngModel)] ="username" placeholder="Ex. jane" [ngModelOptions]="{standalone: true}">
+    </mat-form-field>
+
+    
+
+      
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Password</mat-label>
+        <input matInput [(ngModel)]="password" type="password" [ngModelOptions]="{standalone: true}">
+      </mat-form-field>
+      <span></span>
+        <button mat-raised-button style="font-size: 1.4em;" color="warn" (click)="login()">Sign in</button>
+        
+  </form>
+  
+</div>
+</section>
+
+
+  

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #f24780;;
+    
+    font-weight: 600;
+    z-index: 999;
+    margin: 0px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.home-button {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.toolbar a {
+    margin: 25px;
+}
+
+.circle-button {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 90px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.circle-button:hover {
+    color: black;
+}
+
+.selection button {
+    margin: 5px;
+}

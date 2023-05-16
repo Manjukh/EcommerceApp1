@@ -1,0 +1,26 @@
+<section>
+    
+    <p>Product</p>
+    <div   class= "right mb-3">
+      <button routerLink="/cart" style="font-size: 1em;" class="circle-button">Cart</button>
+      
+      </div>
+      <div class="card-container" data-aos="zoom-in-up" data-aos-duration="100">
+        <div class="productlist" *ngFor="let product of products">
+            <div class="card">
+            <img src='assets/product{{product.productId}}.png' height="200px" width="auto">
+            <div class="iteminfo">
+               
+              <p> {{product.productName}}</p>
+              <p> {{product.productDescription}}</p>
+              
+              <p> ${{product.productPrice}}</p>
+              <p> <button color="purple" (click)="addToCart(product.productId)">Add To Cart</button></p>
+            </div>
+          
+        </div>
+      </div>
+      </div>
+    
+    
+    </section>
